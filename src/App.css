@@ -24,9 +24,17 @@
   contain: layout;
 }
 
-/* 背景图片相关样式 */
+/* ====================== 背景图片样式 ====================== */
 .with-background-image {
   position: relative;
+  width: 100%;
+  height: 100vh;
+  /* 这里是你的背景图 */
+  background-image: url('/src/assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .background-overlay {
@@ -36,12 +44,14 @@
   right: 0;
   bottom: 0;
   z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4); /* 黑色半透明蒙版，让文字更清晰 */
 }
 
 .backdrop-blur {
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
+/* ========================================================== */
 
 /* 增加卡片在有背景图片时的可读性 */
 .dark .MuiPaper-root {
