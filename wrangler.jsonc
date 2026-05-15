@@ -17,8 +17,8 @@
     "d1_databases": [
         {
             "binding": "DB",
-            "database_name": "navigation-db-local",
-            "database_id": "01c64d30-42e9-4603-8939-eb006c7c8573"
+            "database_name": "导航-数据库",
+            "database_id": "5db56bd2-f32b-46ae-bdee-a233f787048d"
         }
     ],
     "vars": {
