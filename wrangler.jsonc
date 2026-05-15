@@ -16,7 +16,7 @@
     // D1数据库绑定
     "d1_databases": [
         {
-            "binding": "BD",
+            "binding": "DB",
             "database_name": "WQ-数据",
             "database_id": "7510eda1-725c-42fa-b1a4-8e62ee321083"
         }
