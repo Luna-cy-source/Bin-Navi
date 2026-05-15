@@ -16,9 +16,9 @@
     // D1数据库绑定
     "d1_databases": [
         {
-            "binding": "DB",
-            "database_name": "导航-数据库",
-            "database_id": "5db56bd2-f32b-46ae-bdee-a233f787048d"
+            "binding": "BD",
+            "database_name": "WQ-数据",
+            "database_id": "7510eda1-725c-42fa-b1a4-8e62ee321083"
         }
     ],
     "vars": {
